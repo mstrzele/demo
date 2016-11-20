@@ -37,6 +37,14 @@ $ php bin/console server:run
 Alternatively, you can [configure a fully-featured web server][2] like Nginx
 or Apache to run the application.
 
+### Docker Compose
+
+```bash
+$ cd symfony-demo/
+$ cp .env.dist .env
+$ docker-compose up
+```
+
 Tests
 -----
 

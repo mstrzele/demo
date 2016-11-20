@@ -1,0 +1,8 @@
+version: '2'
+services:
+  symfony-demo:
+    environment:
+      - APP_ENV=dev
+    env_file:
+      - .env
+    command: ["php", "bin/console", "server:start", "0.0.0.0:80"]
